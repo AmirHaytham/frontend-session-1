@@ -60,4 +60,18 @@ The `services/` folder is the thing students usually skip — don't. The moment 
 
 Session 2 layers JWT auth on top of all this — `AuthContext`, `PrivateRoute`, login/register pages, a Bearer token interceptor on axios. Same app, just grown up a bit.
 
+## Screenshots
+
+The book list, fetched from the backend on mount:
+
+![Book list](screenshots/01-book-list.png)
+
+A book detail page — `useParams()` + a second fetch keyed on the route id:
+
+![Book detail](screenshots/02-book-detail.png)
+
+The Add Book form — controlled inputs all the way down:
+
+![Add Book form](screenshots/03-add-book.png)
+
 — Built for CSEN 406 at the German International University.
